@@ -1,6 +1,7 @@
 const header = {
   // all the properties are optional - can be left empty or deleted
-  homepage: 'https://github.com/rohitchourey0809',
+  homepage:
+    'https://github.com/rohitchourey0809/Rohit_Personal_React_PortFoiio.git',
   title: 'Rohit Chourey',
 }
 
