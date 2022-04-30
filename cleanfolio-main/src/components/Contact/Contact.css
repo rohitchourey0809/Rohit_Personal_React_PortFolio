@@ -1,3 +1,6 @@
+.contachead {
+  margin: 5px 0px 20px;
+}
 .contact {
   margin-top: 80px;
   flex-direction: column;
@@ -7,7 +10,132 @@
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
+  align-items: center;
+  margin-top: 30px;
 }
-.contactdetails{
-margin-top: 80px;
+.contactdetails {
+  margin-top: 80px;
+}
+
+.Succesful,
+li,
+Button {
+  animation: wiggle 2s linear infinite;
+  align-items: center;
+  /* background-color: green; */
+}
+
+/* Keyframes */
+@keyframes wiggle {
+  0%,
+  7% {
+    transform: rotateZ(0);
+  }
+  15% {
+    transform: rotateZ(-15deg);
+  }
+  20% {
+    transform: rotateZ(10deg);
+  }
+  25% {
+    transform: rotateZ(-10deg);
+  }
+  30% {
+    transform: rotateZ(6deg);
+  }
+  35% {
+    transform: rotateZ(-4deg);
+  }
+  40%,
+  100% {
+    transform: rotateZ(0);
+  }
+}
+
+body {
+  background: #000;
+}
+
+Button {
+  /* position: absolute; */
+  left: calc(50% - 3em);
+  top: calc(50% - 2em);
+
+  height: 4em;
+  width: 7em;
+
+  /* background: #444; */
+  /* background: linear-gradient(top, #555, #333); */
+  border: none;
+  /* border-top: 3px solid orange; */
+  border-radius: 0 0 0.2em 0.2em;
+  color: #fff;
+  font-family: Helvetica, Arial, Sans-serif;
+  font-size: 1em;
+  transform-origin: 50% 5em;
+}
+
+/* <---------------------> */
+.Succesful {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  position: relative;
+  animation-name: example;
+  animation-duration: 4s;
+  animation-iteration-count: 2;
+  animation-direction: alternate-reverse;
+}
+
+@keyframes example {
+  0% {
+    border-radius: 20px;
+    background-color: teal;
+    left: 0px;
+    top: 0px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+  }
+  25% {
+    border-radius: 30px;
+    background-color: yellow;
+    left: 200px;
+    top: 0px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+  }
+  50% {
+    border-radius: 40px;
+    background-color: blue;
+    left: 200px;
+    top: 200px;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    -ms-border-radius: 40px;
+    -o-border-radius: 40px;
+  }
+  75% {
+    border-radius: 40px;
+    background-color: green;
+    left: 0px;
+    top: 200px;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    -ms-border-radius: 40px;
+    -o-border-radius: 40px;
+  }
+  100% {
+    border-radius: 10px;
+    background-color: red;
+    left: 0px;
+    top: 0px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+  }
 }
