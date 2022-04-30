@@ -6,7 +6,8 @@ const header = {
 
 const about = {
   // all the properties are optional - can be left empty or deleted
-  Image: 'https://miro.medium.com/max/1400/1*Gnmr4Kj5Nc2QJOuQSSZDfg.jpeg',
+  Image:
+    'https://cdn-images-1.medium.com/max/1000/1*aZZ7Ekf2YnpIgZ6_87mm6A.png',
 
   name: 'Rohit Chourey',
   role: 'Mern Stack Web Developer',
