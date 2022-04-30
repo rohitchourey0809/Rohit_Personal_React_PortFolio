@@ -1,0 +1,13 @@
+.contact {
+  margin-top: 80px;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.formdetails {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.contactdetails{
+margin-top: 80px;
+}
