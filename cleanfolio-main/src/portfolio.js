@@ -1,12 +1,12 @@
 const header = {
   // all the properties are optional - can be left empty or deleted
   homepage: 'https://rohitchourey0809.github.io/cleanfolio',
-  title: 'Rohit',
+  title: 'Rohit Chourey',
 }
 
 const about = {
   // all the properties are optional - can be left empty or deleted
-  Image: '',
+  Image: 'https://miro.medium.com/max/1400/1*Gnmr4Kj5Nc2QJOuQSSZDfg.jpeg',
 
   name: 'Rohit Chourey',
   role: 'Mern Stack Web Developer',
