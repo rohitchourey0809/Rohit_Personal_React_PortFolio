@@ -38,7 +38,7 @@ const projects = [
       'CredoBeauty is the online shopping beauty product e-commerse website.',
     stack: ['Html', 'Css', 'JavaScript', 'React'],
     sourceCode: 'https://github.com/rohitchourey0809/CREADO_BEAUTY',
-    livePreview: 'https://credo-project.herokuapp.com/',
+    livePreview: 'https://courageous-seahorse-df76dc.netlify.app/',
   },
 ]
 
