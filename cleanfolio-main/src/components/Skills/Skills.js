@@ -2,6 +2,7 @@ import uniqid from 'uniqid'
 import { skills } from '../../portfolio'
 import './Skills.css'
 
+// eslint-disable-next-line react/function-component-definition
 const Skills = () => {
   if (!skills.length) return null
 

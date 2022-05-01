@@ -3,7 +3,7 @@ import PropTypes from 'prop-types'
 
 const ThemeContext = createContext()
 
-const ThemeProvider = ({ children }) => {
+function ThemeProvider({ children }) {
   const [themeName, setThemeName] = useState('light')
 
   useEffect(() => {
@@ -21,6 +21,7 @@ const ThemeProvider = ({ children }) => {
   }
 
   return (
+    // eslint-disable-next-line react/jsx-no-constructed-context-values
     <ThemeContext.Provider value={[{ themeName, toggleTheme }]}>
       {children}
     </ThemeContext.Provider>

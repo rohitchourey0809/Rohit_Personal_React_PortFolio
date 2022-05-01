@@ -1,3 +1,4 @@
+/* eslint-disable react/function-component-definition */
 import uniqid from 'uniqid'
 import { projects } from '../../portfolio'
 import ProjectContainer from '../ProjectContainer/ProjectContainer'

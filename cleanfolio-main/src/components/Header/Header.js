@@ -2,6 +2,7 @@ import { header } from '../../portfolio'
 import Navbar from '../Navbar/Navbar'
 import './Header.css'
 
+// eslint-disable-next-line react/function-component-definition
 const Header = () => {
   const { homepage, title } = header
 

@@ -1,3 +1,4 @@
+/* eslint-disable react/function-component-definition */
 import './Footer.css'
 
 const Footer = () => (
