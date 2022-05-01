@@ -1,3 +1,4 @@
+/* eslint-disable react/function-component-definition */
 import { useContext } from 'react'
 import { ThemeContext } from './contexts/theme'
 import Header from './components/Header/Header'
