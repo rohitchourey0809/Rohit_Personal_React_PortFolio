@@ -52,7 +52,7 @@ yarn start
 
 `"homepage": ""`
 
-with `"homepage": "https://yourusername.github.io"`.
+with `"homepage": "https://rohitchourey0809.github.io"`.
 
 - Push the changes.
 
