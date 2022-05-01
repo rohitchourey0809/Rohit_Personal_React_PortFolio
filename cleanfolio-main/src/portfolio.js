@@ -31,7 +31,7 @@ const projects = [
     description: 'Meanbuy is the online shopping e-commerse website.',
     stack: ['Html', 'Css', 'JavaScript', 'React'],
     sourceCode: 'https://github.com/rohitchourey0809/Meanbuy',
-    livePreview: 'dapper-meanbuy-rohitchourey00809.netlify.app',
+    livePreview: 'https://dapper-meanbuy-rohitchourey00809.netlify.app',
   },
   {
     name: 'CredoBeautyClone',
