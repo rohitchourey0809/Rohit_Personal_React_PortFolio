@@ -42,6 +42,18 @@ const projects = [
     sourceCode: 'https://github.com/rohitchourey0809/CREADO_BEAUTY',
     livePreview: 'https://courageous-seahorse-df76dc.netlify.app/',
   },
+
+  {
+    name: 'GoogleTranlatorClone',
+    Imgproject: 'https://miro.medium.com/max/1400/1*VBXT67n-oKSuhfHbMiPQcQ.png',
+    description:
+      "Google's Translator free service instantly translates words, phrases, and web pages between English and over 100 other languages.",
+    stack: ['Html', 'Css', 'JavaScript'],
+    sourceCode:
+      'https://github.com/rohitchourey0809/Unit3_Git_Assign/tree/main/google%20translator',
+    livePreview:
+      'https://googletranslater-nuh1bv627-rohitchourey0809.vercel.app/',
+  },
 ]
 
 const skills = [
