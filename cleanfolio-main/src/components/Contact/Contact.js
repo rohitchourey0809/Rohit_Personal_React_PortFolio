@@ -79,6 +79,11 @@ function Contact() {
             Email me
           </span>
         </a>
+         <br/>
+        <span>
+          {' '}
+          <p>MobileNo: +91-9074052483</p>
+        </span>
       </section>
     </div>
   )

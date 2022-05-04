@@ -77,7 +77,7 @@ const contact = {
 
 const aboutsummary = {
   aboutdescrp:
-    'Hi, My name is Rohit Chourey, I have completed my Engineering from Technocrats Institue Of Technology,Bhopal (M.P) in Mechanical Engineering and I have worked as a Internal Audit Officer in fusion Microfinance Pvt Ltd . I am a self-learner, curious and enthusiastic in learning new things. Curiosity is what makes a person think different. I think learning even a small thing as it seem can make a difference. Take a look at some projects I built on Github or check my resume.',
+    'Hi, My name is Rohit Chourey, I have completed my graduation B.E Mechanical Engineering from Technocrats Institue Of Technology, Bhopal (M.P)  and I have worked as a Internal Audit Officer in fusion Microfinance Pvt Ltd . I am a self-learner, curious and enthusiastic in learning new things. Curiosity is what makes a person think different. I think learning even a small thing as it seem can make a difference. Take a look at some projects I built on Github or check my resume.',
 }
 
 export { header, home, projects, skills, contact, aboutsummary }

@@ -36,7 +36,7 @@ const Navbar = () => {
         {aboutsummary ? (
           <li className='nav__list-item'>
             <a
-              href='#aboutsummary'
+              href='#Aboutsummary'
               onClick={toggleNavList}
               className='link link--nav'
             >

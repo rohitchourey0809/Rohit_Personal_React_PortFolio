@@ -9,7 +9,7 @@ import ScrollToTop from './components/ScrollToTop/ScrollToTop'
 import Contact from './components/Contact/Contact'
 import Footer from './components/Footer/Footer'
 import './App.css'
-import Aboutsum from './components/aboutsummary/aboutsummary'
+import Aboutsum from './components/aboutsummary/Aboutsummary'
 import Home from './components/Home/Home'
 // import Home from './components/Home/Home'
 
