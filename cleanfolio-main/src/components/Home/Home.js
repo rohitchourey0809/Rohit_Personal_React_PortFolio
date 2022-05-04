@@ -1,15 +1,17 @@
 import GitHubIcon from '@material-ui/icons/GitHub'
 import LinkedInIcon from '@material-ui/icons/LinkedIn'
 import { about } from '../../portfolio'
-import './About.css'
-import IMAGE from "./photoroom (1).png"
+import './Home.css'
+import IMAGE from './photoroom (1).png'
 
-function About() {
-  const { name, role, description, resume, social } = about
+function Home() {
+  const { name, role, resume, social } = about
 
   return (
     <div className='about center'>
-      <img src={IMAGE} alt='Avatar' className='avatar' />
+      <div>
+        <img src={IMAGE} alt='Avatar' className='avatar' />
+      </div>
       {name && (
         <h1>
           Hi, I am <span className='about__name'>{name}.</span>
@@ -17,7 +19,7 @@ function About() {
       )}
 
       {role && <h2 className='about__role'>A {role}.</h2>}
-      <p className='about__desc'>{description && description}</p>
+      {/* <p className='about__desc'>{description && description}</p> */}
 
       <div className='about__contact center'>
         {resume && (
@@ -56,4 +58,4 @@ function About() {
   )
 }
 
-export default About
+export default Home

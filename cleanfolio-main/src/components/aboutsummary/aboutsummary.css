@@ -1,0 +1,22 @@
+.about__title {
+  text-align: center;
+  text-transform: uppercase;
+  flex-wrap: wrap;
+  text-align: justify;
+  display: flex;
+}
+
+.about__desc {
+  font-size: 1.2rem;
+  max-width: 800px;
+
+  align-items: center;
+}
+.aboutdiv {
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin-top: 3em;
+  display: flex;
+
+  align-items: center;
+}

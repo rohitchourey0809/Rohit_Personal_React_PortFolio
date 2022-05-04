@@ -5,8 +5,9 @@ import WbSunnyRoundedIcon from '@material-ui/icons/WbSunnyRounded'
 import MenuIcon from '@material-ui/icons/Menu'
 import CloseIcon from '@material-ui/icons/Close'
 import { ThemeContext } from '../../contexts/theme'
-import { projects, skills, contact } from '../../portfolio'
+import { projects, skills, contact, aboutsummary } from '../../portfolio'
 import './Navbar.css'
+import Home from '../Home/Home'
 
 const Navbar = () => {
   const [{ themeName, toggleTheme }] = useContext(ThemeContext)
@@ -20,6 +21,30 @@ const Navbar = () => {
         style={{ display: showNavList ? 'flex' : null }}
         className='nav__list'
       >
+        {Home ? (
+          <li className='nav__list-item'>
+            <a
+              href='#Home'
+              onClick={toggleNavList}
+              className='link link--nav'
+            >
+              Home
+            </a>
+          </li>
+        ) : null}
+
+        {aboutsummary ? (
+          <li className='nav__list-item'>
+            <a
+              href='#aboutsummary'
+              onClick={toggleNavList}
+              className='link link--nav'
+            >
+              About
+            </a>
+          </li>
+        ) : null}
+
         {projects.length ? (
           <li className='nav__list-item'>
             <a

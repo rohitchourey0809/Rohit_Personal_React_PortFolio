@@ -1,7 +1,6 @@
 const header = {
   // all the properties are optional - can be left empty or deleted
-  homepage:
-    'https://github.com/rohitchourey0809/Rohit_Personal_React_PortFoiio.git',
+  homepage: 'https://rohit0809-portfolio.netlify.app/',
   title: 'Rohit Chourey',
 }
 
@@ -9,11 +8,12 @@ const about = {
   // all the properties are optional - can be left empty or deleted
   Image:
     'https://cdn-images-1.medium.com/max/1000/1*aZZ7Ekf2YnpIgZ6_87mm6A.png',
+  description:
+    'I am a Full-Stack Developer. I’m currently pursuing Full Stack WebDevelopment Course at Masai School',
 
   name: 'Rohit Chourey',
   role: 'Mern Stack Web Developer',
-  description:
-    'Observant and detail-oriented aspiring full stack web developer with a specialization in mern stack.Self-motivated and      curious,with a keen interest in building user-centric products. Looking forward to utilizing  his skills in a challenging work environment. Always active and energetic for performing the task. Always ready to learn new things.',
+
   resume:
     'https://docs.google.com/document/d/1rN5NiZ9R6XEDrLehWUq04lAyfGjKeggjVznhxvCMuVc/edit',
   social: {
@@ -75,4 +75,9 @@ const contact = {
   email: 'rohit1995chourey@mail.com',
 }
 
-export { header, about, projects, skills, contact }
+const aboutsummary = {
+  aboutdescrp:
+    'Hi, My name is Rohit Chourey, I have completed my Engineering from Technocrats Institue Of Technology,Bhopal (M.P) in Mechanical Engineering and I have worked as a Internal Audit Officer in fusion Microfinance Pvt Ltd . I am a self-learner, curious and enthusiastic in learning new things. Curiosity is what makes a person think different. I think learning even a small thing as it seem can make a difference. Take a look at some projects I built on Github or check my resume.',
+}
+
+export { header, about, projects, skills, contact, aboutsummary }
