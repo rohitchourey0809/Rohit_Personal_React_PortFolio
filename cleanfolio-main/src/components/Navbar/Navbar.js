@@ -1,4 +1,5 @@
 /* eslint-disable react/function-component-definition */
+//  eslint-disable react/function-component-definition
 import { useContext, useState } from 'react'
 import Brightness2Icon from '@material-ui/icons/Brightness2'
 import WbSunnyRoundedIcon from '@material-ui/icons/WbSunnyRounded'
@@ -7,7 +8,6 @@ import CloseIcon from '@material-ui/icons/Close'
 import { ThemeContext } from '../../contexts/theme'
 import { projects, skills, contact, aboutsummary, home } from '../../portfolio'
 import './Navbar.css'
-// import Home from '../Home/Home'
 
 const Navbar = () => {
   const [{ themeName, toggleTheme }] = useContext(ThemeContext)
@@ -23,11 +23,7 @@ const Navbar = () => {
       >
         {home ? (
           <li className='nav__list-item'>
-            <a
-              href='#Home'
-              onClick={toggleNavList}
-              className='link link--nav'
-            >
+            <a href='#Home' onClick={toggleNavList} className='link link--nav'>
               Home
             </a>
           </li>
@@ -36,7 +32,7 @@ const Navbar = () => {
         {aboutsummary ? (
           <li className='nav__list-item'>
             <a
-              href='#Aboutsummary'
+              href='Aboutsummary'
               onClick={toggleNavList}
               className='link link--nav'
             >
