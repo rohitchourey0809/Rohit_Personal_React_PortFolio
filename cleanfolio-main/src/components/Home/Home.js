@@ -1,11 +1,11 @@
 import GitHubIcon from '@material-ui/icons/GitHub'
 import LinkedInIcon from '@material-ui/icons/LinkedIn'
-import { about } from '../../portfolio'
+import { home } from '../../portfolio'
 import './Home.css'
 import IMAGE from './photoroom (1).png'
 
 function Home() {
-  const { name, role, resume, social } = about
+  const { name, role, resume, social } = home
 
   return (
     <div className='about center'>
