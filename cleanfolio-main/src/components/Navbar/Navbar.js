@@ -6,7 +6,7 @@ import WbSunnyRoundedIcon from '@material-ui/icons/WbSunnyRounded'
 import MenuIcon from '@material-ui/icons/Menu'
 import CloseIcon from '@material-ui/icons/Close'
 import { ThemeContext } from '../../contexts/theme'
-import { projects, skills, contact, aboutsummary, home } from '../../portfolio'
+import { projects, skills, contact,  home } from '../../portfolio'
 import './Navbar.css'
 
 const Navbar = () => {
@@ -23,23 +23,22 @@ const Navbar = () => {
       >
         {home ? (
           <li className='nav__list-item'>
-            <a href='#Home' onClick={toggleNavList} className='link link--nav'>
-              Home
+            <a href='#about' onClick={toggleNavList} className='link link--nav'>
+              About
             </a>
-          </li>
+         </li>
         ) : null}
-
-        {aboutsummary ? (
+        {/* {aboutsummary.length ? (
           <li className='nav__list-item'>
             <a
-              href='Aboutsummary'
+              href='#aboutsummary'
               onClick={toggleNavList}
               className='link link--nav'
             >
-              About
+             About
             </a>
           </li>
-        ) : null}
+        ) : null} */}
 
         {projects.length ? (
           <li className='nav__list-item'>

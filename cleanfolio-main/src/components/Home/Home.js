@@ -5,10 +5,12 @@ import './Home.css'
 import IMAGE from './photoroom (1).png'
 
 function Home() {
-  const { name, role, resume, social } = home
+  if(home.length) return null
+
+  const { name, role, resume, social, description } = home
 
   return (
-    <div className='about center'>
+    <div className='section about center'>
       <div>
         <img src={IMAGE} alt='Avatar' className='avatar' />
       </div>
@@ -19,7 +21,8 @@ function Home() {
       )}
 
       {role && <h2 className='about__role'>A {role}.</h2>}
-      {/* <p className='about__desc'>{description && description}</p> */}
+      <h2 className='about__title'>ABOUT</h2>
+      <p className='about__desc'>{description && description}</p>
 
       <div className='about__contact center'>
         {resume && (

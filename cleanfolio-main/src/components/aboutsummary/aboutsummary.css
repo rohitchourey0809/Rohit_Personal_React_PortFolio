@@ -1,12 +1,12 @@
-.about__title {
-  text-align: center;
+/* .about__title { */
+  /* text-align: center;
   text-transform: uppercase;
   flex-wrap: wrap;
   text-align: justify;
   display: flex;
-}
+} */
 
-.about__desciption {
+/* .about__desciption {
   font-size: 1.2rem;
   max-width: 780px;
   margin-top: 3em;
@@ -14,8 +14,8 @@
   justify-content: center;
 
   /* align-items: center; */
-}
-.aboutdiv {
+/* } */ 
+/* .aboutdiv {
   flex-direction: column;
   flex-wrap: wrap;
   margin-top: 3em;
@@ -23,4 +23,17 @@
   justify-content: center;
 
   align-items: center;
+} */
+.skills__list {
+  max-width: 600px;
+  width: 80%;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.skills__list-item {
+  margin: 0.5em;
 }

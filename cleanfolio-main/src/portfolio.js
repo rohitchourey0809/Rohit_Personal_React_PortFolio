@@ -8,11 +8,11 @@ const home = {
   // all the properties are optional - can be left empty or deleted
   Image:
     'https://cdn-images-1.medium.com/max/1000/1*aZZ7Ekf2YnpIgZ6_87mm6A.png',
-  description:
-    'I am a Full-Stack Developer. I’m currently pursuing Full Stack WebDevelopment Course at Masai School',
 
   name: 'Rohit Chourey',
-  role: 'Mern Stack Web Developer',
+  role: 'MERN Stack Web Developer',
+  description:
+    '.Hi, My name is Rohit Chourey,. I’m currently pursuing Full Stack WebDevelopment Course at Masai School I have completed my graduation B.E Mechanical Engineering from Technocrats Institue Of Technology, Bhopal (M.P)  and I have worked as a Internal Audit Officer in fusion Microfinance Pvt Ltd . I am a self-learner, curious and enthusiastic in learning new things. Curiosity is what makes a person think different. I think learning even a small thing as it seem can make a difference. Take a look at some projects I built on Github or check my resume.',
 
   resume:
     'https://docs.google.com/document/d/1rN5NiZ9R6XEDrLehWUq04lAyfGjKeggjVznhxvCMuVc/edit',
@@ -80,4 +80,4 @@ const aboutsummary = {
     'Hi, My name is Rohit Chourey, I have completed my graduation B.E Mechanical Engineering from Technocrats Institue Of Technology, Bhopal (M.P)  and I have worked as a Internal Audit Officer in fusion Microfinance Pvt Ltd . I am a self-learner, curious and enthusiastic in learning new things. Curiosity is what makes a person think different. I think learning even a small thing as it seem can make a difference. Take a look at some projects I built on Github or check my resume.',
 }
 
-export { header, home, projects, skills, contact, aboutsummary }
+export { header, aboutsummary, home, projects, skills, contact }

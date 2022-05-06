@@ -63,7 +63,7 @@ function Contact() {
 
         <Button
           id='submitbut'
-          // className='btn--outline'
+          className='btn--outline'
           variant='outlined'
           type='submit'
           disabled={state.submitting}
@@ -82,7 +82,7 @@ function Contact() {
         <br />
         <span>
           {' '}
-          <p>MobileNo: +91-9074052483</p>
+          <p className ="mob-number">MobileNo: +91-9074052483</p>
         </span>
       </section>
     </div>

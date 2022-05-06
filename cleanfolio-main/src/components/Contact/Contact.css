@@ -18,7 +18,7 @@
 }
 
 .Succesful,
-li,
+
 Button {
   animation: wiggle 2s linear infinite;
   align-items: center;
@@ -56,13 +56,14 @@ body {
   background: #000;
 }
 
-Button {
-  /* position: absolute; */
+.submitbut {
+  /* position: middle center; */
   left: calc(50% - 3em);
   top: calc(50% - 2em);
 
   height: 4em;
   width: 7em;
+  margin-top:2em;
 
   /* background: #444; */
   /* background: linear-gradient(top, #555, #333); */

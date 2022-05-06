@@ -1,4 +1,5 @@
 /* eslint-disable react/function-component-definition */
+// import { Link } from '@material-ui/core'
 import { useContext } from 'react'
 import { ThemeContext } from './contexts/theme'
 import Header from './components/Header/Header'
@@ -9,8 +10,9 @@ import ScrollToTop from './components/ScrollToTop/ScrollToTop'
 import Contact from './components/Contact/Contact'
 import Footer from './components/Footer/Footer'
 import './App.css'
-import Aboutsum from './components/aboutsummary/Aboutsummary'
+// import Aboutsum from './components/aboutsummary/aboutsummary'
 import Home from './components/Home/Home'
+
 // import Home from './components/Home/Home'
 
 const App = () => {
@@ -22,7 +24,7 @@ const App = () => {
 
       <main>
         <Home />
-        <Aboutsum />
+        {/* <Link to='/aboutsummary' elements={<Aboutsum />} /> */}
         <Projects />
         <Skills />
         <Contact />
