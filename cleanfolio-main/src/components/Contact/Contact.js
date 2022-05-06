@@ -8,6 +8,7 @@ import { contact } from '../../portfolio'
 
 function Contact() {
   if (!contact.email) return null
+
   const [state, handleSubmit] = useForm('myyobnrq')
   if (state.succeeded) {
     return (
@@ -80,9 +81,10 @@ function Contact() {
           </span>
         </a>
         <br />
+
         <span>
           {' '}
-          <p className ="mob-number">MobileNo: +91-9074052483</p>
+          <p className='mob-number'>MobileNo: +91-9074052483</p>
         </span>
       </section>
     </div>

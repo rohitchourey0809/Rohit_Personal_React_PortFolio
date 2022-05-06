@@ -5,7 +5,7 @@ import './Home.css'
 import IMAGE from './photoroom (1).png'
 
 function Home() {
-  if(home.length) return null
+  // if(home.length) return null
 
   const { name, role, resume, social, description } = home
 
@@ -21,7 +21,7 @@ function Home() {
       )}
 
       {role && <h2 className='about__role'>A {role}.</h2>}
-      <h2 className='about__title'>ABOUT</h2>
+      {/* <h2 className='about__title'>ABOUT</h2> */}
       <p className='about__desc'>{description && description}</p>
 
       <div className='about__contact center'>

@@ -1,22 +1,22 @@
-// import uniqid from 'uniqid'
-import React from 'react'
-// import uniqid from 'uniqid'
 import { aboutsummary } from '../../portfolio'
-import './aboutsummary.css'
+
+import './Aboutsummary.css'
 
 // eslint-disable-next-line react/function-component-definition
-const Aboutsum = () => {
-  if (!aboutsummary.aboutdescrp) return null
+const Aboutsummary = () => {
+  if (aboutsummary.length) return null
+  const { aboutdescrp } = aboutsummary
 
   return (
-    <section className='section contact center' id='contact'>
-      <h2 className='section__title'>Contact</h2>
-      <p className='about__desc'>
-        {aboutsummary.aboutdescrp && aboutsummary.aboutdescrp}
-      </p>
-      {/* <p>{aboutsummary.aboutdescrp}</p> */}
+    <section className='section about' id='about'>
+      <ul className='section__list'>
+        <h2 className='section__title'>ABOUT</h2>
+        <li>
+          <p className='section__desc'>{aboutdescrp && aboutdescrp}</p>
+        </li>
+      </ul>
     </section>
   )
 }
 
-export default Aboutsum
+export default Aboutsummary

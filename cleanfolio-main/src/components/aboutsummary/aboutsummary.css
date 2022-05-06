@@ -1,39 +1,27 @@
-/* .about__title { */
-  /* text-align: center;
-  text-transform: uppercase;
-  flex-wrap: wrap;
-  text-align: justify;
-  display: flex;
-} */
-
-/* .about__desciption {
-  font-size: 1.2rem;
-  max-width: 780px;
-  margin-top: 3em;
-  text-align: justify;
-  justify-content: center;
-
-  /* align-items: center; */
-/* } */ 
-/* .aboutdiv {
+.section__list {
   flex-direction: column;
-  flex-wrap: wrap;
-  margin-top: 3em;
-  display: flex;
-  justify-content: center;
-
   align-items: center;
-} */
-.skills__list {
-  max-width: 600px;
-  width: 80%;
-  margin: auto;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
+  margin-top: 3em;
 }
 
-.skills__list-item {
-  margin: 0.5em;
+.about__name {
+  color: var(--clr-primary);
 }
+
+.about__role {
+  margin-top: 1.2em;
+}
+
+.section__desc {
+  font-size: 1.2rem;
+  max-width: 1020px;
+  margin: auto;
+  text-align: justify;
+}
+
+/* @media (max-width: 600px) {
+  .app .about {
+    align-items: flex-start;
+    margin-top: 2em;
+  }
+} */
