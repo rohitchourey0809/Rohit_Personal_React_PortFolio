@@ -18,7 +18,7 @@ function Contact() {
     )
   }
   return (
-    <div>
+    <div className='formdiv'>
       <form onSubmit={handleSubmit} className='formdetails'>
         <h2 className='contachead'>CONTACT DETAILS</h2>
 
@@ -82,8 +82,8 @@ function Contact() {
         </a>
         <br />
 
-        <span>
-          {' '}
+        <span type='button' className='btn btn--outline'>
+        
           <p className='mob-number'>MobileNo: +91-9074052483</p>
         </span>
       </section>

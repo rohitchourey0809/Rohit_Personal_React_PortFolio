@@ -9,12 +9,9 @@ const Aboutsummary = () => {
 
   return (
     <section className='section about' id='about'>
-      <ul className='section__list'>
-        <h2 className='section__title'>ABOUT</h2>
-        <li>
-          <p className='section__desc'>{aboutdescrp && aboutdescrp}</p>
-        </li>
-      </ul>
+      <h2 className='section__title'>ABOUT</h2>
+
+      <p className='section__desc'>{aboutdescrp && aboutdescrp}</p>
     </section>
   )
 }

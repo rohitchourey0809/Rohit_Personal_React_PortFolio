@@ -7,7 +7,7 @@ const header = {
 const home = {
   // all the properties are optional - can be left empty or deleted
   Image:
-    'https://cdn-images-1.medium.com/max/1000/1*aZZ7Ekf2YnpIgZ6_87mm6A.png',
+    'https://cdn-images-1.medium.com/max/1000/1*Wn9-IGll5i1j71XdFgwNaw.png',
 
   name: 'Rohit Chourey',
   role: 'MERN Stack Web Developer',

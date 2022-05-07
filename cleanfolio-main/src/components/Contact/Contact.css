@@ -1,3 +1,6 @@
+.formdiv{ 
+   /* background-color:#231c1c; box-shadow: 0 0 10px rgba(0); */
+}
 .contachead {
   margin: 5px 0px 20px;
 }
@@ -19,7 +22,7 @@
 
 .Succesful,
 
-Button {
+Button{
   animation: wiggle 2s linear infinite;
   align-items: center;
   /* background-color: green; */
