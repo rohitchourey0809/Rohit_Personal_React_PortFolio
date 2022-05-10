@@ -83,8 +83,8 @@ function Contact() {
         <br />
 
         <span type='button' className='btn btn--outline'>
-        
-          <p className='mob-number'>MobileNo: +91-9074052483</p>
+        <a href='tel:+91-907405243'>Call us:+91-907405243</a>
+        {/* <p className='mob-number'>MobileNo: +91-9074052483</p> */}
         </span>
       </section>
     </div>
