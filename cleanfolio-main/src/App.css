@@ -66,6 +66,10 @@ main {
   bottom: 0;
   background-color: var(--clr-primary);
   transition: width 0.2s ease-in;
+  -webkit-transition: width 0.2s ease-in;
+  -moz-transition: width 0.2s ease-in;
+  -ms-transition: width 0.2s ease-in;
+  -o-transition: width 0.2s ease-in;
 }
 
 .link:hover::before,
@@ -91,6 +95,10 @@ main {
   font-size: 0.9rem;
   text-transform: lowercase;
   transition: transform 0.2s ease-in-out;
+  -webkit-transition: transform 0.2s ease-in-out;
+  -moz-transition: transform 0.2s ease-in-out;
+  -ms-transition: transform 0.2s ease-in-out;
+  -o-transition: transform 0.2s ease-in-out;
 }
 
 .btn--outline {
@@ -116,6 +124,10 @@ main {
   top: 0;
   z-index: -1;
   transition: right 0.2s ease-in-out;
+  -webkit-transition: right 0.2s ease-in-out;
+  -moz-transition: right 0.2s ease-in-out;
+  -ms-transition: right 0.2s ease-in-out;
+  -o-transition: right 0.2s ease-in-out;
 }
 
 .btn--outline:hover:before,
@@ -132,6 +144,10 @@ main {
 
 .btn--plain:hover {
   transform: translateY(-4px);
+  -webkit-transform: translateY(-4px);
+  -moz-transform: translateY(-4px);
+  -ms-transform: translateY(-4px);
+  -o-transform: translateY(-4px);
 }
 
 .btn--icon {
@@ -145,6 +161,10 @@ main {
 
 .btn--icon:active {
   transform: translateY(-5px);
+  -webkit-transform: translateY(-5px);
+  -moz-transform: translateY(-5px);
+  -ms-transform: translateY(-5px);
+  -o-transform: translateY(-5px);
 }
 
 @media (max-width: 600px) {

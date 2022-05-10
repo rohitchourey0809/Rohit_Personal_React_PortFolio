@@ -1,13 +1,16 @@
 /* eslint-disable react/function-component-definition */
 //  eslint-disable react/function-component-definition
 import { useContext, useState } from 'react'
+
 import Brightness2Icon from '@material-ui/icons/Brightness2'
 import WbSunnyRoundedIcon from '@material-ui/icons/WbSunnyRounded'
 import MenuIcon from '@material-ui/icons/Menu'
 import CloseIcon from '@material-ui/icons/Close'
 import { ThemeContext } from '../../contexts/theme'
-import { projects, skills, contact,   aboutsummary } from '../../portfolio'
+import { projects, skills, contact, aboutsummary, } from '../../portfolio'
 import './Navbar.css'
+// import Aboutsummary from '../Aboutsummary/Aboutsummary'
+
 // import Aboutsummary from '../Aboutsummary/Aboutsummary'
 
 const Navbar = () => {
@@ -22,21 +25,14 @@ const Navbar = () => {
         style={{ display: showNavList ? 'flex' : null }}
         className='nav__list'
       >
-        {/* {home ? (
-          <li className='nav__list-item'>
-            <a href='#about' onClick={toggleNavList} className='link link--nav'>
-              About
-            </a>
-         </li>
-        ) : null} */}
-        {aboutsummary ? (
+        {aboutsummary.length ? (
           <li className='nav__list-item'>
             <a
               href='#aboutsummary'
               onClick={toggleNavList}
               className='link link--nav'
             >
-             Abouts
+              abouts
             </a>
           </li>
         ) : null}

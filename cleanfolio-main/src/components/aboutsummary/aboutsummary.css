@@ -1,4 +1,4 @@
-.section__list {
+/* .section__list {
   flex-direction: column;
   align-items: center;
   margin-top: 3em;
@@ -25,3 +25,19 @@
     margin-top: 2em;
   }
 } */
+
+.aboutsummary__list {
+  max-width: 925px;
+  /* width: 100%; */
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  /* justify-content: center; */
+  text-align: justify
+}
+
+.aboutsummary__list-item {
+  margin: 0.5em;
+}
+

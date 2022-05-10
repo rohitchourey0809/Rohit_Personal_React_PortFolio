@@ -1,6 +1,7 @@
 /* eslint-disable react/function-component-definition */
 // import { Link } from '@material-ui/core'
 import { useContext } from 'react'
+// import {Routes, Route } from "react-router-dom"
 // import { Link } from '@material-ui/core'
 import { ThemeContext } from './contexts/theme'
 import Header from './components/Header/Header'
@@ -15,7 +16,8 @@ import './App.css'
 
 import Home from './components/Home/Home'
 
-import Aboutsummary from './components/Aboutsummary/Aboutsummary'
+// import Aboutsummary from './components/Aboutsummary/Aboutsummary'
+import AboutSummary from './components/Aboutsummary/Aboutsummary'
 
 // import Home from './components/Home/Home'
 
@@ -28,7 +30,8 @@ const App = () => {
 
       <main>
         <Home />
-       <Aboutsummary />
+        {/* <Aboutsummary /> */}
+        <AboutSummary />
         <Projects />
         <Skills />
         <Contact />
