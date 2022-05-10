@@ -27,17 +27,20 @@
 } */
 
 .aboutsummary__list {
-  max-width: 925px;
-  /* width: 100%; */
+  max-width: 1020px;
+  width: 100%;
+
   margin: auto;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+
   /* justify-content: center; */
-  text-align: justify
+  text-align: justify;
+  /* font-size: 100em; */
 }
 
 .aboutsummary__list-item {
   margin: 0.5em;
+  font-size: 1.2em;
 }
-
