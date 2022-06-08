@@ -1,8 +1,7 @@
 .home__stack {
   /* border: 2px solid red; */
-  margin: auto;
+  margin: 4rem auto;
   text-align: center;
-  /* display: flex; */
 }
 
 .home__stack-item {
@@ -103,7 +102,7 @@
 
 .about .btn--outline {
   margin-right: 1em;
- 
+
   padding: 0.5em;
   text-align: center;
 }
