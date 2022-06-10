@@ -10,14 +10,11 @@ const Header = () => {
     <header className='header center'>
       <div style={{ display: 'flex', alignItems: 'center' }}>
         {' '}
-        
-          {' '}
-          <img
-            src='https://i.pinimg.com/originals/48/8c/8b/488c8bf486bd5e36e4bec8b99b054e66.jpg'
-            alt='title'
-            style={{ width: '5%', height: '100%' }}
-          />
-      
+        <img
+          src='https://i.pinimg.com/originals/48/8c/8b/488c8bf486bd5e36e4bec8b99b054e66.jpg'
+          alt='title'
+          style={{ width: '5%', height: '100%' }}
+        />
         <h3>
           {homepage ? (
             <a href={homepage} className='link'>

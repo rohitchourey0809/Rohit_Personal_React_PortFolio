@@ -56,3 +56,15 @@ button {
     font-size: 2.6rem;
   }
 }
+
+div {
+  overflow: hidden;
+  translate: inherit;
+
+  transform: inherit;
+  inherit-webkit-transform: ;
+  -moz-transform: inherit;
+  -ms-transform: inherit;
+  -o-transform: inherit;
+  -webkit-transform: inherit;
+}

@@ -1,15 +1,16 @@
 .header {
-  height: 3.4em;
-  /* max-width: 1100px; */
-  width: 100%;
-  margin: auto;
+  height: 3.2em;
   justify-content: space-around;
   position: fixed;
-  /* border: 1px solid red; */
   overflow: hidden;
+  translate : center;
   box-shadow: var(--shadow);
-
-  /* position: fixed; */
+  transform: translateY;
+  -webkit-transform: none;
+  -moz-transform: none;
+  -ms-transform: none;
+  -o-transform: none;
+  transform: none;
 }
 
 @media (max-width: 600px) {

@@ -1,3 +1,7 @@
+.formdiv {
+  position: hidden;
+  overflow: visible;
+}
 
 .contachead {
   margin: 5px 0px 20px;
@@ -19,8 +23,7 @@
 }
 
 .Succesful,
-
-Button{
+Button {
   animation: wiggle 2s linear infinite;
   align-items: center;
   /* background-color: green; */
@@ -64,7 +67,7 @@ body {
 
   height: 4em;
   width: 7em;
-  margin-top:2em;
+  margin-top: 2em;
 
   /* background: #444; */
   /* background: linear-gradient(top, #555, #333); */

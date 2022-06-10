@@ -10,13 +10,16 @@ function ProjectContainer({ project }) {
     <div className='project'>
       <h3>{project.name}</h3>
 
-      <ImageListItem>
-        <img
-          className='project-img'
-          src={`${project.Imgproject}`}
-          alt={project.title}
-          loading='lazy' />
-      </ImageListItem>
+      <div>
+        <ImageListItem>
+          <img
+            className='project-img'
+            src={`${project.Imgproject}`}
+            alt={project.title}
+            loading='lazy'
+          />
+        </ImageListItem>
+      </div>
 
       {/* <ImageListItemBar src={project.Imgproject} /> */}
       <p className='project__description'>{project.description}</p>
