@@ -1,9 +1,11 @@
 .header {
+  top: 0;
+  z-index: 20;
   height: 3.2em;
   justify-content: space-around;
   position: fixed;
   overflow: hidden;
-  translate : center;
+  translate: center;
   box-shadow: var(--shadow);
   transform: translateY;
   -webkit-transform: none;

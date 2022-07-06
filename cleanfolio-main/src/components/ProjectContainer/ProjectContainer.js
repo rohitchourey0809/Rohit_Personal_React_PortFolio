@@ -7,7 +7,7 @@ import { ImageListItem } from '@material-ui/core'
 
 function ProjectContainer({ project }) {
   return (
-    <div className='project'>
+    <div className='project' style={{ zIndex: -20,overflow: 'hidden' }}>
       <h3>{project.name}</h3>
 
       <div>
