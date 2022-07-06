@@ -31,15 +31,10 @@ function Home() {
         {/* <h2 className='about__title'>ABOUT</h2> */}
         {/* <p className='about__desc'>{description && description}</p> */}
 
-        <li className='home__stack-item' style={{ zIndex: '-20' }}>
-          <div className='about__contact' style={{ zIndex: '-20' }}>
+        <li className='home__stack-item'>
+          <div className='about__contact'>
             {resume && (
-              <a
-                href={resume}
-                target='_blank'
-                rel='noreferrer'
-                style={{ position: 'relative', zIndex: '-20' }}
-              >
+              <a href={resume} target='_blank' rel='noreferrer'>
                 <span type='button' className='btn btn--outline'>
                   Resume
                 </span>
@@ -50,7 +45,6 @@ function Home() {
               <>
                 {social.github && (
                   <a
-                    style={{ position: 'relative', zIndex: '-20' }}
                     target='_blank'
                     rel='noreferrer'
                     href={social.github}
@@ -63,7 +57,6 @@ function Home() {
 
                 {social.linkedin && (
                   <a
-                    style={{ position: 'relative', zIndex: '-20' }}
                     target='_blank'
                     rel='noreferrer'
                     href={social.linkedin}
