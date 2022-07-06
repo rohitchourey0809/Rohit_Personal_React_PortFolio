@@ -7,9 +7,10 @@ import { ImageListItem } from '@material-ui/core'
 
 function ProjectContainer({ project }) {
   return (
-    <div className='project'> run 
+    <div className='project'>
+      {' '}
+      run
       <h3>{project.name}</h3>
-
       <div>
         <ImageListItem>
           <img
@@ -20,7 +21,6 @@ function ProjectContainer({ project }) {
           />
         </ImageListItem>
       </div>
-
       {/* <ImageListItemBar src={project.Imgproject} /> */}
       <p className='project__description'>{project.description}</p>
       {project.stack && (
@@ -32,9 +32,10 @@ function ProjectContainer({ project }) {
           ))}
         </ul>
       )}
-
       {project.sourceCode && (
         <a
+          target='_blank'
+          rel='noreferrer'
           href={project.sourceCode}
           aria-label='source code'
           className='link link--icon'
@@ -42,9 +43,10 @@ function ProjectContainer({ project }) {
           <GitHubIcon />
         </a>
       )}
-
       {project.livePreview && (
         <a
+          target='_blank'
+          rel='noreferrer'
           href={project.livePreview}
           aria-label='live preview'
           className='link link--icon'
