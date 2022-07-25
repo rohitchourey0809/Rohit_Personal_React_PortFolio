@@ -25,6 +25,23 @@ const Navbar = () => {
         style={{ display: showNavList ? 'flex' : null }}
         className='nav__list'
       >
+        <button
+          type='button'
+          onClick={toggleTheme}
+          className='btn btn--icon nav__theme'
+          aria-label='toggle theme'
+        >
+          {themeName === 'light' ? <Brightness2Icon /> : <WbSunnyRoundedIcon />}
+        </button>
+
+        <button
+          type='button'
+          onClick={toggleNavList}
+          className='btn btn--icon nav__hamburger'
+          aria-label='toggle navigation'
+        >
+          {showNavList ? <CloseIcon /> : <MenuIcon />}
+        </button>
         {aboutsummary.length ? (
           <li className='nav__list-item'>
             <a
@@ -73,24 +90,6 @@ const Navbar = () => {
           </li>
         ) : null}
       </ul>
-
-      <button
-        type='button'
-        onClick={toggleTheme}
-        className='btn btn--icon nav__theme'
-        aria-label='toggle theme'
-      >
-        {themeName === 'dark' ? <Brightness2Icon /> : <WbSunnyRoundedIcon />}
-      </button>
-
-      <button
-        type='button'
-        onClick={toggleNavList}
-        className='btn btn--icon nav__hamburger'
-        aria-label='toggle navigation'
-      >
-        {showNavList ? <CloseIcon /> : <MenuIcon />}
-      </button>
     </nav>
   )
 }
