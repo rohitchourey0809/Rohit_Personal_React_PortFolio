@@ -23,7 +23,7 @@ const home = {
 }
 
 const aboutsummary = [
-  'Hi, My name is Rohit Chourey, I have completed my graduation B.E Mechanical Engineering from Technocrats Institue Of Technology, Bhopal (M.P)  and I have worked as a Internal Audit Officer in fusion Microfinance Pvt Ltd . I am a self-learner, curious and enthusiastic in learning new things. Curiosity is what makes a person think different. I think learning even a small thing as it seem can make a difference. Take a look at some projects I built on Github or check my resume.',
+  'Hi, My name is Rohit Chourey, I have completed my graduation B.E Mechanical Engineering from Technocrats Institue Of Technology, Bhopal (M.P) and MBA (Finance+HR) from Bhabha University,Bhopal (M.P) and I have worked as a Internal Audit Officer in fusion Microfinance Pvt Ltd . I am a self-learner, curious and enthusiastic in learning new things. Curiosity is what makes a person think different. I think learning even a small thing as it seem can make a difference. Take a look at some projects I built on Github or check my resume.',
 ]
 
 const projects = [
@@ -57,6 +57,15 @@ const projects = [
       'https://github.com/rohitchourey0809/Unit3_Git_Assign/tree/main/google%20translator',
     livePreview:
       'https://googletranslater-nuh1bv627-rohitchourey0809.vercel.app/',
+  },
+  {
+    name: 'ShoppingClone',
+    Imgproject:
+      'https://cdn-images-1.medium.com/max/1000/1*MKdmakTpuY_DULyVvDRGNw.png',
+    description: 'Shopping is the online shopping product e-commerse website.',
+    stack: ['Html', 'Css', 'JavaScript', 'React', 'Mongo', 'Json-server'],
+    sourceCode: 'https://github.com/rohitchourey0809/FinalMernProject',
+    livePreview: 'https://final-mern-app.netlify.app/',
   },
 ]
 
