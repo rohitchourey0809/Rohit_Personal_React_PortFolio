@@ -7,7 +7,7 @@ function ThemeProvider({ children }) {
   const [themeName, setThemeName] = useState('dark')
 
   useEffect(() => {
-    const darkMediaQuery = window.matchMedia('(prefers-color-scheme: dark)')
+    const darkMediaQuery = window.matchMedia('(prefers-color-scheme: light)')
     setThemeName(darkMediaQuery.matches ? 'light' : 'dark')
     darkMediaQuery.addEventListener('change', (e) => {
       setThemeName(e.matches ? 'light' : 'dark')
@@ -15,7 +15,7 @@ function ThemeProvider({ children }) {
   }, [])
 
   const toggleTheme = () => {
-    const name = themeName === 'dark' ? 'light' : 'dark'
+    const name = themeName === 'light' ? 'dark' : 'light'
     localStorage.setItem('themeName', name)
     setThemeName(name)
   }

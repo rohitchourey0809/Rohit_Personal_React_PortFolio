@@ -62,9 +62,5 @@ div {
   translate: inherit;
 
   transform: inherit;
-  inherit-webkit-transform: ;
-  -moz-transform: inherit;
-  -ms-transform: inherit;
-  -o-transform: inherit;
-  -webkit-transform: inherit;
+ 
 }

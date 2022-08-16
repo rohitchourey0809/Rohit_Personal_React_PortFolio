@@ -3,7 +3,13 @@ import React from 'react'
 import { useForm, ValidationError } from '@formspree/react'
 
 import './Contact.css'
-import { Button, TextField } from '@material-ui/core'
+import {
+  Button,
+  
+  TextField,
+ 
+
+} from '@material-ui/core'
 import { contact } from '../../portfolio'
 
 function Contact() {
@@ -83,8 +89,7 @@ function Contact() {
         <br />
 
         <span type='button' className='btn btn--outline'>
-        <a href='tel:+91-907405243'>Call us:+91-907405243</a>
-        {/* <p className='mob-number'>MobileNo: +91-9074052483</p> */}
+          <a href='tel:+91-9074052483'>Call me:+91-9074052483</a>
         </span>
       </section>
     </div>
