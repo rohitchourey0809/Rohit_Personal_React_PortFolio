@@ -3,13 +3,7 @@ import React from 'react'
 import { useForm, ValidationError } from '@formspree/react'
 
 import './Contact.css'
-import {
-  Button,
-  
-  TextField,
- 
-
-} from '@material-ui/core'
+import { Button, TextField } from '@material-ui/core'
 import { contact } from '../../portfolio'
 
 function Contact() {
@@ -83,7 +77,7 @@ function Contact() {
         <h2 className='section__title'>Contact</h2>
         <a href={`mailto:${contact.email}`}>
           <span type='button' className='btn btn--outline'>
-            Email me
+            Email me : rohit1995chourey@gmail.com
           </span>
         </a>
         <br />
