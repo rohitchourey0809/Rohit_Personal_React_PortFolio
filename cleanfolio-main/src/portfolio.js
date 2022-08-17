@@ -80,7 +80,7 @@ const projects = [
       'Json-server',
       'Chakra-UI',
     ],
-    sourceCode: 'https://github.com/rohitchourey0809/FinalMernProject',
+    sourceCode: 'https://github.com/rohitchourey0809/Ecommerce-Redux-1',
     livePreview: 'https://ecommerce-redux-1.netlify.app/',
   },
 ]
@@ -96,6 +96,7 @@ const skills = [
   'Express',
   'MongoDB',
   'Material UI',
+  'Chakra UI',
   'Node',
   'Git',
   'Chakra',
