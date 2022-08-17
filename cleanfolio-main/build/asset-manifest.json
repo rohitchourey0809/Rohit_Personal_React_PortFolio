@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/static/css/main.c73038ba.css",
-    "main.js": "/static/js/main.9aa1586e.js",
+    "main.js": "/static/js/main.e48952b7.js",
     "static/media/photostudio-8-designify.png": "/static/media/photostudio-8-designify.3d0cbccbb534f95eaaf3.png",
     "index.html": "/index.html",
     "main.c73038ba.css.map": "/static/css/main.c73038ba.css.map",
-    "main.9aa1586e.js.map": "/static/js/main.9aa1586e.js.map"
+    "main.e48952b7.js.map": "/static/js/main.e48952b7.js.map"
   },
   "entrypoints": [
     "static/css/main.c73038ba.css",
-    "static/js/main.9aa1586e.js"
+    "static/js/main.e48952b7.js"
   ]
 }

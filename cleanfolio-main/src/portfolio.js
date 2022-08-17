@@ -48,17 +48,6 @@ const projects = [
   },
 
   {
-    name: 'GoogleTranlatorClone',
-    Imgproject: 'https://miro.medium.com/max/1400/1*VBXT67n-oKSuhfHbMiPQcQ.png',
-    description:
-      "Google's Translator free service instantly translates words, phrases, and web pages between English and over 100 other languages.",
-    stack: ['Html', 'Css', 'JavaScript'],
-    sourceCode:
-      'https://github.com/rohitchourey0809/Unit3_Git_Assign/tree/main/google%20translator',
-    livePreview:
-      'https://googletranslater-nuh1bv627-rohitchourey0809.vercel.app/',
-  },
-  {
     name: 'ShoppingClone',
     Imgproject:
       'https://cdn-images-1.medium.com/max/1000/1*MKdmakTpuY_DULyVvDRGNw.png',
@@ -69,7 +58,7 @@ const projects = [
   },
   {
     name: 'ReduxShoppingClone',
-    Imgproject: 'https://miro.medium.com/max/875/1*IESvFDZXpDQ50E8KpePwfw.png',
+    Imgproject: 'https://miro.medium.com/max/875/1*1ITscgooEwl5NTZz4i6zsw.png',
     description: 'Shopping is the online shopping product e-commerse website.',
     stack: [
       'Html',
@@ -82,6 +71,17 @@ const projects = [
     ],
     sourceCode: 'https://github.com/rohitchourey0809/Ecommerce-Redux-1',
     livePreview: 'https://ecommerce-redux-1.netlify.app/',
+  },
+  {
+    name: 'GoogleTranlatorClone',
+    Imgproject: 'https://miro.medium.com/max/1400/1*VBXT67n-oKSuhfHbMiPQcQ.png',
+    description:
+      "Google's Translator free service instantly translates words, phrases, and web pages between English and over 100 other languages.",
+    stack: ['Html', 'Css', 'JavaScript'],
+    sourceCode:
+      'https://github.com/rohitchourey0809/Unit3_Git_Assign/tree/main/google%20translator',
+    livePreview:
+      'https://googletranslater-nuh1bv627-rohitchourey0809.vercel.app/',
   },
 ]
 
@@ -99,7 +99,7 @@ const skills = [
   'Chakra UI',
   'Node',
   'Git',
-  'Chakra',
+
   'Github',
   'Json-server',
 ]
