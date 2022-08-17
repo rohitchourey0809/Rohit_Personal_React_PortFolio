@@ -67,6 +67,22 @@ const projects = [
     sourceCode: 'https://github.com/rohitchourey0809/FinalMernProject',
     livePreview: 'https://final-mern-app.netlify.app/',
   },
+  {
+    name: 'ReduxShoppingClone',
+    Imgproject: 'https://miro.medium.com/max/875/1*IESvFDZXpDQ50E8KpePwfw.png',
+    description: 'Shopping is the online shopping product e-commerse website.',
+    stack: [
+      'Html',
+      'Css',
+      'JavaScript',
+      'Redux',
+      'Mongo',
+      'Json-server',
+      'Chakra-UI',
+    ],
+    sourceCode: 'https://github.com/rohitchourey0809/FinalMernProject',
+    livePreview: 'https://ecommerce-redux-1.netlify.app/',
+  },
 ]
 
 const skills = [
@@ -83,8 +99,8 @@ const skills = [
   'Node',
   'Git',
   'Chakra',
-  "Github",
-  "Json-server",
+  'Github',
+  'Json-server',
 ]
 
 const contact = {
