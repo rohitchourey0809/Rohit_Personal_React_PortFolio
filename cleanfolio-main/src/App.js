@@ -17,7 +17,7 @@ import './App.css'
 import Home from './components/Home/Home'
 
 // import Aboutsummary from './components/Aboutsummary/Aboutsummary'
-import AboutSummary from './components/Aboutsummary/Aboutsummary'
+import AboutSummary from './components/aboutsummary/aboutsummary'
 
 // import Home from './components/Home/Home'
 
