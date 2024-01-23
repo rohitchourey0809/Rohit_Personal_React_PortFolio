@@ -7,7 +7,7 @@ const header = {
 const home = {
   // all the properties are optional - can be left empty or deleted
   Image:
-    'https://cdn-images-1.medium.com/max/1000/1*Wn9-IGll5i1j71XdFgwNaw.png',
+    'https://miro.medium.com/v2/resize:fit:616/format:webp/1*62hGhuJKcf2ObHWPC2Cg-A.png',
 
   name: 'Rohit Chourey',
   role: 'MERN Stack Web Developer',
@@ -23,7 +23,7 @@ const home = {
 }
 
 const aboutsummary = [
-  'Hi, My name is Rohit Chourey, I have completed my graduation B.E Mechanical Engineering from Technocrats Institue Of Technology, Bhopal (M.P) and MBA (Finance+HR) from Bhabha University,Bhopal (M.P). Dynamic and results-driven Associate Software Engineer with a commendable two-year tenure at Indus Net Technologies, specializing in React and Next.js development. My primary focus has been on the impactful "SBI Customer Portal Project, where I have played a pivotal role as a Frontend Developer. Through collaborative efforts and technical proficiency, I have contributed significantly to the success of the project, ensuring a seamless and user-friendly experience for channel partners and agents.',
+  'Hi, My name is Rohit Chourey, I have completed my graduation B.E Mechanical Engineering from Technocrats Institue Of Technology, Bhopal (M.P) and MBA (Finance+HR) from Bhabha University,Bhopal (M.P). Dynamic and results-driven Associate Software Engineer with a commendable two-year tenure at Indus Net Technologies in Kolkata, specializing in React and Next.js development. My primary focus has been on the impactful "SBI Customer Portal Project", where I have played a pivotal role as a Frontend Developer. Through collaborative efforts and technical proficiency, I have contributed significantly to the success of the project, ensuring a seamless and user-friendly experience for channel partners and agents.',
 ]
 
 const projects = [
@@ -91,7 +91,8 @@ const skills = [
   'HTML',
   'CSS',
   'JavaScript',
-  'React',
+  'ReactJS',
+  'NextJS',
   'Redux',
   'Express',
   'MongoDB',
@@ -99,7 +100,6 @@ const skills = [
   'Chakra UI',
   'Node',
   'Git',
-
   'Github',
   'Json-server',
 ]
