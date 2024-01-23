@@ -2,7 +2,7 @@ import GitHubIcon from '@material-ui/icons/GitHub'
 import LinkedInIcon from '@material-ui/icons/LinkedIn'
 import { home } from '../../portfolio'
 import './Home.css'
-import IMAGE from './photostudio-8-designify.png'
+import IMAGE from './ResumeProfilePhotos.png'
 
 function Home() {
   const { name, role, resume, social } = home
