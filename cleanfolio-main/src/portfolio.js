@@ -102,6 +102,7 @@ const skills = [
   'Git',
   'Github',
   'Json-server',
+  'sql'
 ]
 
 const contact = {
