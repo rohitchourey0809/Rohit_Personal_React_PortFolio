@@ -26,6 +26,18 @@ const aboutsummary = [
   'Hi, My name is Rohit Chourey, I have completed my graduation B.E Mechanical Engineering from Technocrats Institue Of Technology, Bhopal (M.P) and MBA (Finance+HR) from Bhabha University,Bhopal (M.P). Dynamic and results-driven Associate Software Engineer with a commendable two-year tenure at Indus Net Technologies in Kolkata, specializing in React and Next.js development. My primary focus has been on the impactful "SBI Customer Portal Project", where I have played a pivotal role as a Frontend Developer. Through collaborative efforts and technical proficiency, I have contributed significantly to the success of the project, ensuring a seamless and user-friendly experience for channel partners and agents.',
 ]
 
+const WorkExperience = [
+  "Developed and maintained front-end components and user interfaces",
+  "Implemented state management using React hooks to handle complex user interactions and dynamic data updates.",
+  "Collaborated with backend teams to integrate React components with RESTful APIs, ensuring seamless data flow between the front end and the server.",
+  "Utilized Next.js dynamic routes to create mutiple dynamic pages.",
+  "Work on mutilangual pages and used file based routing in Next.js",
+  "Worked closely with UX/UI designers, backend developers, and QA teams in an Agile environment, ensuring seamless integration and timely delivery of features",
+  "Implemented Next.js and React.js framework to enhance the performance and scalability of web application",
+  "Good exposure to HTML,CSS,JavaScript,React,Redux,Next Js"
+
+]
+
 const projects = [
   // projects can be added an removed
   // if there are no projects, Projects section won't show up
@@ -110,4 +122,4 @@ const contact = {
   email: 'rohit1995chourey@mail.com',
 }
 
-export { header, aboutsummary, home, projects, skills, contact }
+export { header, aboutsummary, home, projects, skills, contact,WorkExperience }

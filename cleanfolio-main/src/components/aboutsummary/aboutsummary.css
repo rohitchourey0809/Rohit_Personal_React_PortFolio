@@ -16,6 +16,21 @@
 #aboutsummary {
   margin: -1.5%;
 }
+#aboutsummary1 {
+  margin: 5%;
+}
+
 .aboutsummary__list-item btn btn--plain {
   justify-content: center;
+}
+
+
+.bullet-list {
+  list-style-type: disc; /* Use 'disc' for filled circles, 'circle' for outlined circles */
+  padding-left: 20px; /* Adjust padding as needed */
+}
+
+.text {
+  font-size: 14px; /* Adjust font size as needed */
+  margin-left: 10px; /* Adjust margin between the bullet point and text */
 }
