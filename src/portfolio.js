@@ -1,6 +1,6 @@
 const header = {
   // all the properties are optional - can be left empty or deleted
-  homepage: 'https://rohit0809-portfolio1.netlify.app/',
+  homepage: 'https://rohit-personal-react-port-folio.vercel.app/',
   title: 'Rohit Chourey',
 }
 
