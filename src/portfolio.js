@@ -1,6 +1,6 @@
 const header = {
   // all the properties are optional - can be left empty or deleted
-  homepage: 'https://rohit0809-portfolio.netlify.app/',
+  homepage: 'https://rohit0809-portfolio1.netlify.app/',
   title: 'Rohit Chourey',
 }
 
@@ -47,7 +47,7 @@ const projects = [
     description: 'Meanbuy is the online shopping e-commerse website.',
     stack: ['Html', 'Css', 'JavaScript', 'React'],
     sourceCode: 'https://github.com/rohitchourey0809/Meanbuy',
-    livePreview: 'https://dapper-meanbuy-rohitchourey00809.netlify.app',
+    livePreview: 'https://bvaishnavi123.github.io/mean.github.io/',
   },
   {
     name: 'CredoBeautyClone',
@@ -56,7 +56,7 @@ const projects = [
       'CredoBeauty is the online shopping beauty product e-commerse website.',
     stack: ['Html', 'Css', 'JavaScript', 'React'],
     sourceCode: 'https://github.com/rohitchourey0809/CREADO_BEAUTY',
-    livePreview: 'https://credo-beauty.netlify.app/',
+    livePreview: 'https://courageous-seahorse-df76dc.netlify.app/',
   },
 
   {
