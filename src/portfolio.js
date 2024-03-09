@@ -15,7 +15,7 @@ const home = {
   //   'Hi, My name is Rohit Chourey,. I’m currently pursuing Full Stack WebDevelopment Course at Masai School I have completed my graduation B.E Mechanical Engineering from Technocrats Institue Of Technology, Bhopal (M.P)  and I have worked as a Internal Audit Officer in fusion Microfinance Pvt Ltd . I am a self-learner, curious and enthusiastic in learning new things. Curiosity is what makes a person think different. I think learning even a small thing as it seem can make a difference. Take a look at some projects I built on Github or check my resume.',
 
   resume:
-    'https://docs.google.com/document/d/1rN5NiZ9R6XEDrLehWUq04lAyfGjKeggjVznhxvCMuVc/edit',
+    'https://drive.google.com/drive/folders/16SEUAdJ-6Gkm7sBkWifLpEy5oabFbyhD',
   social: {
     linkedin: 'https://www.linkedin.com/in/rohit-chourey/',
     github: 'https://github.com/rohitchourey0809',
@@ -59,42 +59,42 @@ const projects = [
     livePreview: 'https://courageous-seahorse-df76dc.netlify.app/',
   },
 
-  {
-    name: 'ShoppingClone',
-    Imgproject:
-      'https://cdn-images-1.medium.com/max/1000/1*MKdmakTpuY_DULyVvDRGNw.png',
-    description: 'Shopping is the online shopping product e-commerse website.',
-    stack: ['Html', 'Css', 'JavaScript', 'React', 'Mongo', 'Json-server'],
-    sourceCode: 'https://github.com/rohitchourey0809/FinalMernProject',
-    livePreview: 'https://final-mern-app.netlify.app/',
-  },
-  {
-    name: 'ReduxShoppingClone',
-    Imgproject: 'https://miro.medium.com/max/875/1*1ITscgooEwl5NTZz4i6zsw.png',
-    description: 'Shopping is the online shopping product e-commerse website.',
-    stack: [
-      'Html',
-      'Css',
-      'JavaScript',
-      'Redux',
-      'Mongo',
-      'Json-server',
-      'Chakra-UI',
-    ],
-    sourceCode: 'https://github.com/rohitchourey0809/Ecommerce-Redux-1',
-    livePreview: 'https://ecommerce-redux-1.netlify.app/',
-  },
-  {
-    name: 'GoogleTranlatorClone',
-    Imgproject: 'https://miro.medium.com/max/1400/1*VBXT67n-oKSuhfHbMiPQcQ.png',
-    description:
-      "Google's Translator free service instantly translates words, phrases, and web pages between English and over 100 other languages.",
-    stack: ['Html', 'Css', 'JavaScript'],
-    sourceCode:
-      'https://github.com/rohitchourey0809/Unit3_Git_Assign/tree/main/google%20translator',
-    livePreview:
-      'https://googletranslater-nuh1bv627-rohitchourey0809.vercel.app/',
-  },
+  // {
+  //   name: 'ShoppingClone',
+  //   Imgproject:
+  //     'https://cdn-images-1.medium.com/max/1000/1*MKdmakTpuY_DULyVvDRGNw.png',
+  //   description: 'Shopping is the online shopping product e-commerse website.',
+  //   stack: ['Html', 'Css', 'JavaScript', 'React', 'Mongo', 'Json-server'],
+  //   sourceCode: 'https://github.com/rohitchourey0809/FinalMernProject',
+  //   livePreview: 'https://final-mern-app.netlify.app/',
+  // },
+  // {
+  //   name: 'ReduxShoppingClone',
+  //   Imgproject: 'https://miro.medium.com/max/875/1*1ITscgooEwl5NTZz4i6zsw.png',
+  //   description: 'Shopping is the online shopping product e-commerse website.',
+  //   stack: [
+  //     'Html',
+  //     'Css',
+  //     'JavaScript',
+  //     'Redux',
+  //     'Mongo',
+  //     'Json-server',
+  //     'Chakra-UI',
+  //   ],
+  //   sourceCode: 'https://github.com/rohitchourey0809/Ecommerce-Redux-1',
+  //   livePreview: 'https://ecommerce-redux-1.netlify.app/',
+  // },
+  // {
+  //   name: 'GoogleTranlatorClone',
+  //   Imgproject: 'https://miro.medium.com/max/1400/1*VBXT67n-oKSuhfHbMiPQcQ.png',
+  //   description:
+  //     "Google's Translator free service instantly translates words, phrases, and web pages between English and over 100 other languages.",
+  //   stack: ['Html', 'Css', 'JavaScript'],
+  //   sourceCode:
+  //     'https://github.com/rohitchourey0809/Unit3_Git_Assign/tree/main/google%20translator',
+  //   livePreview:
+  //     'https://googletranslater-nuh1bv627-rohitchourey0809.vercel.app/',
+  // },
 ]
 
 const skills = [

@@ -1,6 +1,5 @@
 import uniqid from 'uniqid'
-import { aboutsummary,WorkExperience} from '../../portfolio'
-
+import { aboutsummary, WorkExperience } from '../../portfolio'
 
 import './aboutsummary.css'
 
@@ -10,29 +9,34 @@ const AboutSummary = () => {
   if (!WorkExperience) return null
 
   return (
-  <>
-    <section className='section aboutsummary' id='aboutsummary'>
-      <h2 className='section__title'>About</h2>
-      <ul className='aboutsummary__list'>
-        {aboutsummary.map((e) => (
-          <li key={uniqid()} className='aboutsummary__list-item btn btn--plain'>
-            {e}
-          </li>
-        ))}
-      </ul>
-    </section>
+    <>
+      <section className='section aboutsummary' id='aboutsummary'>
+        <h2 className='section__title'>About</h2>
+        <ul className='aboutsummary__list'>
+          {aboutsummary.map((e) => (
+            <li
+              key={uniqid()}
+              className='aboutsummary__list-item btn btn--plain'
+            >
+              {e}
+            </li>
+          ))}
+        </ul>
+      </section>
       <section className='section aboutsummary' id='aboutsummary1'>
-      <h2 className='section__title aboutsummary1'>Work Experience</h2>
-      <ul className='aboutsummary__list aboutsummary__list-item btn btn--plain '>
-        {WorkExperience.map((e) => (
-          <ul key={uniqid()} className="bullet-list">
-         <div className=''>{/* Symbol or icon can go here */}</div>
-          <li>{e}</li>
-          </ul>
-        ))}
-      </ul>
-    </section>
-  </>
+        <h2 className='section__title aboutsummary1'>Work Experience</h2>
+        <h3 className='aboutsummary2'>Indus Net Technologies </h3>
+        <h3 className='aboutsummary2'>Sep 2022 - Feb 2024 | Kolkata </h3>
+        <ul className='aboutsummary__list aboutsummary__list-item btn btn--plain '>
+          {WorkExperience.map((e) => (
+            <ul key={uniqid()} className='bullet-list'>
+              <div className=''>{/* Symbol or icon can go here */}</div>
+              <li>{e}</li>
+            </ul>
+          ))}
+        </ul>
+      </section>
+    </>
   )
 }
 
