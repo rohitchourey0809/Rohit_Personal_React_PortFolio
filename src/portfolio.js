@@ -27,15 +27,14 @@ const aboutsummary = [
 ]
 
 const WorkExperience = [
-  "Developed and maintained front-end components and user interfaces",
-  "Implemented state management using React hooks to handle complex user interactions and dynamic data updates.",
-  "Collaborated with backend teams to integrate React components with RESTful APIs, ensuring seamless data flow between the front end and the server.",
-  "Utilized Next.js dynamic routes to create mutiple dynamic pages.",
-  "Work on mutilangual pages and used file based routing in Next.js",
-  "Worked closely with UX/UI designers, backend developers, and QA teams in an Agile environment, ensuring seamless integration and timely delivery of features",
-  "Implemented Next.js and React.js framework to enhance the performance and scalability of web application",
-  "Good exposure to HTML,CSS,JavaScript,React,Redux,Next Js"
-
+  'Developed and maintained front-end components and user interfaces',
+  'Implemented state management using React hooks to handle complex user interactions and dynamic data updates.',
+  'Collaborated with backend teams to integrate React components with RESTful APIs, ensuring seamless data flow between the front end and the server.',
+  'Utilized Next.js dynamic routes to create mutiple dynamic pages.',
+  'Work on mutilangual pages and used file based routing in Next.js',
+  'Worked closely with UX/UI designers, backend developers, and QA teams in an Agile environment, ensuring seamless integration and timely delivery of features',
+  'Implemented Next.js and React.js framework to enhance the performance and scalability of web application',
+  'Good exposure to HTML,CSS,JavaScript,React,Redux,Next Js',
 ]
 
 const projects = [
@@ -132,4 +131,4 @@ const contact = {
   email: 'rohit1995chourey@mail.com',
 }
 
-export { header, aboutsummary, home, projects, skills, contact,WorkExperience }
+export { header, aboutsummary,WorkExperience, home, projects, skills, contact, }

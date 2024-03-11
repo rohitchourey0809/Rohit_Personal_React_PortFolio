@@ -7,7 +7,13 @@ import WbSunnyRoundedIcon from '@material-ui/icons/WbSunnyRounded'
 import MenuIcon from '@material-ui/icons/Menu'
 import CloseIcon from '@material-ui/icons/Close'
 import { ThemeContext } from '../../contexts/theme'
-import { projects, skills, contact, aboutsummary, } from '../../portfolio'
+import {
+  projects,
+  skills,
+  contact,
+  aboutsummary,
+  WorkExperience,
+} from '../../portfolio'
 import './Navbar.css'
 // import Aboutsummary from '../Aboutsummary/Aboutsummary'
 
@@ -17,7 +23,12 @@ const Navbar = () => {
   const [{ themeName, toggleTheme }] = useContext(ThemeContext)
   const [showNavList, setShowNavList] = useState(false)
 
-  const toggleNavList = () => setShowNavList(!showNavList)
+ const toggleNavList = () => {
+   console.log('Before Toggle:', showNavList)
+   setShowNavList(!showNavList)
+   console.log('After Toggle:', showNavList)
+ }
+
 
   return (
     <nav className='center nav'>
@@ -45,11 +56,23 @@ const Navbar = () => {
         {aboutsummary.length ? (
           <li className='nav__list-item'>
             <a
-              href='#aboutsummary'
+              href='#abouts'
               onClick={toggleNavList}
               className='link link--nav'
             >
               abouts
+            </a>
+          </li>
+        ) : null}
+
+        {WorkExperience.length ? (
+          <li className='nav__list-item'>
+            <a
+              href='#experience'
+              onClick={toggleNavList}
+              className='link link--nav'
+            >
+              WorkExperience
             </a>
           </li>
         ) : null}

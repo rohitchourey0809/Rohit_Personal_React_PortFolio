@@ -13,15 +13,11 @@
   margin: 0.5em;
   font-size: 1.2em;
 }
-#abouts {
+#aboutsummary {
   margin: -1.5%;
 }
-#aboutsummary1 {
+#workexperience {
   margin: 5%;
-}
-
-.aboutsummary__list-item btn btn--plain {
-  justify-content: center;
 }
 
 
@@ -36,7 +32,7 @@
 }
 
 
-#aboutsummary1 {
+#experience {
   margin: 5%;
   align-items: center;
   text-align: center;

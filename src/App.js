@@ -12,14 +12,9 @@ import ScrollToTop from './components/ScrollToTop/ScrollToTop'
 import Contact from './components/Contact/Contact'
 import Footer from './components/Footer/Footer'
 import './App.css'
-// import Aboutsum from './components/aboutsummary/aboutsummary'
-
 import Home from './components/Home/Home'
-
-// import Aboutsummary from './components/Aboutsummary/Aboutsummary'
 import AboutSummary from './components/aboutsummary/aboutsummary'
-
-// import Home from './components/Home/Home'
+import WorkExperienceSummary from './components/WorkExperience/workexperience'
 
 const App = () => {
   const [{ themeName }] = useContext(ThemeContext)
@@ -30,8 +25,8 @@ const App = () => {
 
       <main>
         <Home />
-        {/* <Aboutsummary /> */}
         <AboutSummary />
+        <WorkExperienceSummary/>
         <Projects />
         <Skills />
         <Contact />

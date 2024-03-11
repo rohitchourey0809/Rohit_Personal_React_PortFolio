@@ -8,8 +8,6 @@ import { ImageListItem } from '@material-ui/core'
 function ProjectContainer({ project }) {
   return (
     <div className='project'>
-      {' '}
-      run
       <h3>{project.name}</h3>
       <div>
         <ImageListItem>

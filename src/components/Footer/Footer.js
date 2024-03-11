@@ -4,7 +4,7 @@ import './Footer.css'
 const Footer = () => (
   <footer className='footer'>
     <a
-      href='https://rohit0809-portfolio.netlify.app/'
+      href='https://rohit-personal-react-port-folio.vercel.app/'
       className='link footer__link'
     >
       Created By @Rohit Chourey

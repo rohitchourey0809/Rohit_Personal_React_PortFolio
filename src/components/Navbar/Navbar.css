@@ -1,6 +1,7 @@
 .nav__list {
-  margin-right: 1.5em;
+  margin-top: 1em;
   display: flex;
+  padding-right: 8em;
 }
 .nav__list-item {
   margin-left: 1.5em;
