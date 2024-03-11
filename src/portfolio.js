@@ -23,7 +23,7 @@ const home = {
 }
 
 const aboutsummary = [
-  'Hi, My name is Rohit Chourey, I have completed my graduation B.E Mechanical Engineering from Technocrats Institue Of Technology, Bhopal (M.P) and MBA (Finance+HR) from Bhabha University,Bhopal (M.P). Dynamic and results-driven Associate Software Engineer with a commendable two-year tenure at Indus Net Technologies in Kolkata, specializing in React and Next.js development. My primary focus has been on the impactful "SBI Customer Portal Project", where I have played a pivotal role as a Frontend Developer. Through collaborative efforts and technical proficiency, I have contributed significantly to the success of the project, ensuring a seamless and user-friendly experience for channel partners and agents.',
+  'Dynamic and results-driven Associate Software Engineer with a commendable two-year tenure at Indus Net Technologies in Kolkata, specializing in React and Next.js development. My primary focus has been on the impactful "SBI Customer Portal Project", where I have played a pivotal role as a Frontend Developer. Through collaborative efforts and technical proficiency, I have contributed significantly to the success of the project, ensuring a seamless and user-friendly experience for channel partners and agents.',
 ]
 
 const WorkExperience = [
