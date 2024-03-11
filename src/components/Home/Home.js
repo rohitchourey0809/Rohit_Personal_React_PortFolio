@@ -6,6 +6,27 @@ import IMAGE from './ResumeProfilePhotos.png'
 
 function Home() {
   const { name, role, resume, social } = home
+  const handleResumeClick = () => {
+    // Create a hidden link element
+    // const modifiedResumeLink ='https://drive.google.com/file/d/1gi1__RkKsDERMiy3fk12V5BDZET0vfm4/view'
+
+    const link = document.createElement('a')
+    link.href = resume
+    link.target = '_blank'
+    link.rel = 'noopener noreferrer'
+    link.download = 'Resumerohitchourey_fw15_206.pdf' // Specify the desired filename
+
+    // Trigger a click event on the link to initiate the download
+    link.click()
+
+    // Clean up by removing the link from the DOM
+    // Remove the link from the DOM after a short delay to allow the download to start
+    setTimeout(() => {
+      if (document.body.contains(link)) {
+        document.body.removeChild(link)
+      }
+    }, 1000)
+  }
 
   return (
     <div className='section about center'>
@@ -34,11 +55,16 @@ function Home() {
         <li className='home__stack-item'>
           <div className='about__contact'>
             {resume && (
-              <a href={resume} target='_blank' rel='noreferrer'>
-                <span type='button' className='btn btn--outline'>
+              // <a href={resume} target='_blank' rel='noreferrer'>
+                <span
+                  type='button'
+                  className='btn btn--outline'
+                  onClick={handleResumeClick}
+                  aria-hidden='true'
+                >
                   Resume
                 </span>
-              </a>
+              // </a>
             )}
 
             {social && (
