@@ -58,6 +58,16 @@ const projects = [
     sourceCode: 'https://github.com/rohitchourey0809/CREADO_BEAUTY',
     livePreview: 'https://courageous-seahorse-df76dc.netlify.app/',
   },
+  {
+    name: 'FoodappClone',
+    Imgproject:
+      'https://miro.medium.com/v2/resize:fit:828/format:webp/1*r0TMDe3UKEw59QpmjkZsIw.png',
+    description:
+      'Mini Food app which create and share delectable recipes effortlessly with our user-friendly app',
+    stack: ['Html', 'Css', 'JavaScript'],
+    sourceCode: 'https://github.com/rohitchourey0809/Foodapp',
+    livePreview: 'https://foodapp-plum.vercel.app/',
+  },
 
   // {
   //   name: 'ShoppingClone',
