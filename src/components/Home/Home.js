@@ -7,20 +7,12 @@ import IMAGE from './ResumeProfilePhotos.png'
 function Home() {
   // https://drive.google.com/file/d/1skNCc6CmCvn1EcYtW5F4IduMR243L6cm/view?usp=drive_link
   const { name, role, resume, social } = home
-  const handleResumeClick = async () => {
-   const downloadLink =
-     'https://drive.google.com/uc?id=1skNCc6CmCvn1EcYtW5F4IduMR243L6cm'
-
-   // Create a hidden link element
-   const link = document.createElement('a')
-   link.href = downloadLink
-   link.target = '_blank'
-   link.rel = 'noopener noreferrer'
-   link.download = 'Rohitchourey_fw15_206.pdf'
-
-   // Trigger a click event on the link to initiate the download
-   link.click()
-
+  const handleResumeClick = () => {
+    // Open the download link in a new tab
+    const downloadLink =
+      'https://drive.google.com/uc?id=1skNCc6CmCvn1EcYtW5F4IduMR243L6cm'
+    // window.open(downloadLink, '_blank')
+    window.location.href = downloadLink
   }
 
   return (
@@ -50,7 +42,7 @@ function Home() {
         <li className='home__stack-item'>
           <div className='about__contact'>
             {resume && (
-              // <a href={resume} target='_blank' rel='noreferrer'>
+              <a href={resume} target='_blank' rel='noreferrer'>
                 <span
                   type='button'
                   className='btn btn--outline'
@@ -59,7 +51,7 @@ function Home() {
                 >
                   Resume
                 </span>
-              // </a>
+              </a>
             )}
 
             {social && (
