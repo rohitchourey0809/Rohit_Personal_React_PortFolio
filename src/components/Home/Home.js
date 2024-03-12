@@ -5,27 +5,22 @@ import './Home.css'
 import IMAGE from './ResumeProfilePhotos.png'
 
 function Home() {
+  // https://drive.google.com/file/d/1skNCc6CmCvn1EcYtW5F4IduMR243L6cm/view?usp=drive_link
   const { name, role, resume, social } = home
-  const handleResumeClick = () => {
-    // Create a hidden link element
-    // const modifiedResumeLink ='https://drive.google.com/file/d/1gi1__RkKsDERMiy3fk12V5BDZET0vfm4/view'
+  const handleResumeClick = async () => {
+   const downloadLink =
+     'https://drive.google.com/uc?id=1skNCc6CmCvn1EcYtW5F4IduMR243L6cm'
 
-    const link = document.createElement('a')
-    link.href = resume
-    link.target = '_blank'
-    link.rel = 'noopener noreferrer'
-    link.download = 'Resumerohitchourey_fw15_206.pdf' // Specify the desired filename
+   // Create a hidden link element
+   const link = document.createElement('a')
+   link.href = downloadLink
+   link.target = '_blank'
+   link.rel = 'noopener noreferrer'
+   link.download = 'Rohitchourey_fw15_206.pdf'
 
-    // Trigger a click event on the link to initiate the download
-    link.click()
+   // Trigger a click event on the link to initiate the download
+   link.click()
 
-    // Clean up by removing the link from the DOM
-    // Remove the link from the DOM after a short delay to allow the download to start
-    setTimeout(() => {
-      if (document.body.contains(link)) {
-        document.body.removeChild(link)
-      }
-    }, 1000)
   }
 
   return (
