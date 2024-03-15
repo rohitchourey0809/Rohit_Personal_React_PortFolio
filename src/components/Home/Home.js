@@ -27,8 +27,8 @@ function Home() {
         <li className='home__stack-item'>
           {name && (
             <h1 className='home__struct'>
-              Hi{' '}
-              <span className='about__name '>{name}</span>
+              Hello!{' '}
+              <span className='about__name '>{name} here</span>
             </h1>
           )}
         </li>
