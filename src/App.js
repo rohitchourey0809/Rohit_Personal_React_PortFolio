@@ -15,6 +15,7 @@ import './App.css'
 import Home from './components/Home/Home'
 import AboutSummary from './components/aboutsummary/aboutsummary'
 import WorkExperienceSummary from './components/WorkExperience/workexperience'
+import GitHub from './components/Github/github'
 
 const App = () => {
   const [{ themeName }] = useContext(ThemeContext)
@@ -29,6 +30,7 @@ const App = () => {
         <WorkExperienceSummary />
         <Skills />
         <Projects />
+        <GitHub/>
 
         <Contact />
       </main>

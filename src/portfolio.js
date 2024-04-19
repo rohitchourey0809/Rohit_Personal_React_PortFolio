@@ -41,6 +41,16 @@ const projects = [
   // projects can be added an removed
   // if there are no projects, Projects section won't show up
   {
+    name: 'CalenderTodoApp',
+    Imgproject:
+      'https://miro.medium.com/v2/resize:fit:828/format:webp/1*NnYShDqQicLzQKodhGz2Cg.png',
+    description:
+      'Calendar weekly to-do app built on Next.js and Tailwind CSS provides users with an intuitive interface to organize their tasks efficiently. Users can schedule tasks for each day of the week, easily view their agenda, and mark tasks as complete.',
+    stack: ['Nextjs', 'JavaScript', 'Tailwindcss'],
+    sourceCode: 'https://github.com/rohitchourey0809/Calender-NextJs',
+    livePreview: 'https://calender-next-js.vercel.app/',
+  },
+  {
     name: 'MeanBuyClone',
     Imgproject: 'https://miro.medium.com/max/875/0*O0kYHdJYMf-xLEm7.png',
     description: 'Meanbuy is the online shopping e-commerse website.',
@@ -119,11 +129,13 @@ const skills = [
   'MongoDB',
   'Material UI',
   'Chakra UI',
+  'TailwindCss',
   'Node',
   'Git',
   'Github',
   'Json-server',
-  'sql'
+  'sql',
+  'MySql'
 ]
 
 const contact = {
