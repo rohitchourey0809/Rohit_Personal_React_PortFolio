@@ -53,12 +53,12 @@ const projects = [
   {
     name: 'CameraApp',
     Imgproject:
-      'https://miro.medium.com/v2/resize:fit:828/format:webp/1*Yt4fgk2MP5OJX--no1nwNQ.png',
+      'https://miro.medium.com/v2/resize:fit:828/format:webp/1*pBdqnnzHFjPauabxuWXp5A.png',
     description:
       'CaptureCam is your go-to camera app for effortless photo and video capture. With intuitive controls and dynamic feature it designed to enhance your photography experience.',
     stack: ['Html', 'Css', 'JavaScript', 'React', 'Grid-layout'],
     sourceCode: 'https://github.com/rohitchourey0809/my-camera-app',
-    livePreview: 'https://my-camera-app.vercel.app//',
+    livePreview: 'https://my-camera-app.vercel.app/',
   },
   {
     name: 'MeanBuyClone',
