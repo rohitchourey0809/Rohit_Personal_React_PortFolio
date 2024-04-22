@@ -63,7 +63,8 @@ const projects = [
   {
     name: 'MeanBuyClone',
     Imgproject: 'https://miro.medium.com/max/875/0*O0kYHdJYMf-xLEm7.png',
-    description: 'Meanbuy is the online shopping e-commerse website.',
+    description:
+      'Meanbuy: Your ultimate online shopping destination. Explore a world of products, from electronics to fashion, all in one place. Shop with ease and discover unbeatable deals today',
     stack: ['Html', 'Css', 'JavaScript', 'React'],
     sourceCode: 'https://github.com/rohitchourey0809/Meanbuy',
     livePreview: 'https://bvaishnavi123.github.io/mean.github.io/',

@@ -8,7 +8,7 @@ const GitHub = () => {
   if (!aboutsummary.length) return null
   return (
     <section className='section aboutsummary' id='abouts'>
-      <h2 className='section__title'>GITHUB STATS</h2>
+      <h2 className='section__title'>GITHUB STATUS</h2>
       <ul className='aboutsummary__list'>
         {/* <h3 className='center'></h3> */}
 
