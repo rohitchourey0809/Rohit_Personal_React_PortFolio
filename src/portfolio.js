@@ -51,6 +51,16 @@ const projects = [
     livePreview: 'https://calender-next-js.vercel.app/',
   },
   {
+    name: 'CameraApp',
+    Imgproject:
+      'https://miro.medium.com/v2/resize:fit:828/format:webp/1*Yt4fgk2MP5OJX--no1nwNQ.png',
+    description:
+      'CaptureCam is your go-to camera app for effortless photo and video capture. With intuitive controls and dynamic feature it designed to enhance your photography experience.',
+    stack: ['Html', 'Css', 'JavaScript', 'React', 'Grid-layout'],
+    sourceCode: 'https://github.com/rohitchourey0809/my-camera-app',
+    livePreview: 'https://my-camera-app.vercel.app//',
+  },
+  {
     name: 'MeanBuyClone',
     Imgproject: 'https://miro.medium.com/max/875/0*O0kYHdJYMf-xLEm7.png',
     description: 'Meanbuy is the online shopping e-commerse website.',
@@ -135,7 +145,7 @@ const skills = [
   'Github',
   'Json-server',
   'sql',
-  'MySql'
+  'MySql',
 ]
 
 const contact = {
@@ -143,4 +153,4 @@ const contact = {
   email: 'rohit1995chourey@mail.com',
 }
 
-export { header, aboutsummary,WorkExperience, home, projects, skills, contact, }
+export { header, aboutsummary, WorkExperience, home, projects, skills, contact }
