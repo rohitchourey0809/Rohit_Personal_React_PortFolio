@@ -34,7 +34,7 @@ const WorkExperience = [
   'Work on mutilangual pages and used file based routing in Next.js',
   'Worked closely with UX/UI designers, backend developers, and QA teams in an Agile environment, ensuring seamless integration and timely delivery of features',
   'Implemented Next.js and React.js framework to enhance the performance and scalability of web application',
-  'Good exposure to HTML,CSS,JavaScript,React,Redux,Next Js',
+  'Good exposure to HTML ,CSS ,JavaScript ,React ,Redux ,Next Js',
 ]
 
 const projects = [
@@ -145,13 +145,15 @@ const skills = [
   'Git',
   'Github',
   'Json-server',
-  'sql',
+  'Angular',
+  'Sql',
   'MySql',
+  'Redux-saga'
 ]
 
 const contact = {
   // email is optional - if left empty Contact section won't show up
-  email: 'rohit1995chourey@mail.com',
+  email: 'tech.rohitchourey@gmail.com',
 }
 
 export { header, aboutsummary, WorkExperience, home, projects, skills, contact }

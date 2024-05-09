@@ -1,8 +1,6 @@
 import uniqid from 'uniqid'
 import { aboutsummary } from '../../portfolio'
 
-import './aboutsummary.css'
-
 // eslint-disable-next-line react/function-component-definition
 const AboutSummary = () => {
   if (!aboutsummary.length) return null

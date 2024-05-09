@@ -1,4 +1,3 @@
-import uniqid from 'uniqid'
 import { aboutsummary } from '../../portfolio'
 
 import './github.css'
@@ -10,7 +9,6 @@ const GitHub = () => {
     <section className='section aboutsummary' id='abouts'>
       <h2 className='section__title'>GITHUB STATUS</h2>
       <ul className='aboutsummary__list'>
-        {/* <h3 className='center'></h3> */}
 
         <p className='center'>
           <a href='https://github.com/rohitchourey0809' aria-label="Save">
@@ -31,11 +29,6 @@ const GitHub = () => {
             src='https://github-readme-stats-eight-theta.vercel.app/api?username=rohitchourey0809&show_icons=true&theme=algolia&include_all_commits=true&count_private=true'
           />
         </p>
-        {/* {aboutsummary.map((e) => (
-          <li key={uniqid()} className='aboutsummary__list-item btn btn--plain'>
-            {e}
-          </li>
-        ))} */}
       </ul>
     </section>
   )

@@ -10,7 +10,7 @@ function Home() {
   const handleResumeClick = () => {
     // Open the download link in a new tab
     const downloadLink =
-      'https://drive.google.com/uc?id=1J6fa1NCba1zJAlpdAvLrnIbLzT6pRM0d'
+      'https://drive.google.com/uc?id=1nK8o3MFk6Zp3LtPSzbJgGMtUQy3ARRop'
     // window.open(downloadLink, '_blank')
     window.location.href = downloadLink
   }
@@ -27,8 +27,7 @@ function Home() {
         <li className='home__stack-item'>
           {name && (
             <h1 className='home__struct'>
-              Hello!{' '}
-              <span className='about__name '>{name} here</span>
+              Hello! <span className='about__name '>{name} here</span>
             </h1>
           )}
         </li>
