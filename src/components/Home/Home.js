@@ -10,7 +10,7 @@ function Home() {
   const handleResumeClick = () => {
     // Open the download link in a new tab
     const downloadLink =
-      'https://drive.google.com/uc?id=1BM7_j172p1XAl_YzGiv_zU96FgDUcib1'
+      'https://drive.google.com/uc?id=1J6fa1NCba1zJAlpdAvLrnIbLzT6pRM0d'
     // window.open(downloadLink, '_blank')
     window.location.href = downloadLink
   }
