@@ -12,12 +12,11 @@ const WorkExperienceSummary = () => {
       <h2 className='section__title'>Work Experience</h2>
       <h3 className='section__title'>Indus Net Technologies </h3>
       <h3 className='section__title'>Sep 2022 - Feb 2024 | Kolkata </h3>
-      <ul className='aboutsummary__list aboutsummary__list-item btn btn--plain'>
+      <ul className='aboutsummary__list aboutsummary__list-item btn btn--plain experience'>
         {WorkExperience.map((e) => (
-          <ul key={uniqid()} className='bullet-list'>
-            <div className=''>{/* Symbol or icon can go here */}</div>
+          <div key={uniqid()} className='bullet-list'>
             <li>{e}</li>
-          </ul>
+          </div>
         ))}
       </ul>
     </section>

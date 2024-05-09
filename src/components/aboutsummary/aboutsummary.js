@@ -7,9 +7,9 @@ const AboutSummary = () => {
   return (
     <section className='section aboutsummary' id='abouts'>
       <h2 className='section__title'>About</h2>
-      <ul className='aboutsummary__list'>
+      <ul className='aboutsummary__list aboutsummary__list-item btn btn--plain'>
         {aboutsummary.map((e) => (
-          <li key={uniqid()} className='aboutsummary__list-item btn btn--plain'>
+          <li key={uniqid()} className=''>
             {e}
           </li>
         ))}
