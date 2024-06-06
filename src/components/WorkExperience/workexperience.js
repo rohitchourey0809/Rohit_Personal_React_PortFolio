@@ -1,7 +1,6 @@
 import uniqid from 'uniqid'
 import { WorkExperience } from '../../portfolio'
 
-import './workexperience.css'
 
 // eslint-disable-next-line react/function-component-definition
 const WorkExperienceSummary = () => {
