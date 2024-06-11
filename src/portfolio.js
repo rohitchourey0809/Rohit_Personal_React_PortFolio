@@ -61,16 +61,6 @@ const projects = [
     livePreview: 'https://git-hush-frontend.vercel.app/',
   },
   {
-    name: 'StudentEnrollmentApp',
-    Imgproject:
-      'https://github.com/rohitchourey0809/yellow-owl-frontend/assets/97465195/067d3886-8a39-4c71-ba04-91998753ae05',
-    description:
-      'The enrollment registration student form leverages these technologies to create a modern and efficient web application for registering students in an educational institution. It provides a user-friendly interface for entering student information and integrates with a backend server to store and manage enrollment data.',
-    stack: ['React', 'ChakaUI', 'Typescript', 'Node', 'Express', 'MongoDB'],
-    sourceCode: 'https://github.com/rohitchourey0809/yellow-owl-frontend',
-    livePreview: 'https://yellow-owl-registrationform.vercel.app/',
-  },
-  {
     name: 'MealDbClone',
     Imgproject:
       'https://github.com/rohitchourey0809/huemn-clone/assets/97465195/68d4acb1-6c7b-4aa3-9992-2fd02122c04e',
