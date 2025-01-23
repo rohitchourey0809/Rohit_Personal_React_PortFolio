@@ -15,7 +15,7 @@ const home = {
   //   'Hi, My name is Rohit Chourey,. I’m currently pursuing Full Stack WebDevelopment Course at Masai School I have completed my graduation B.E Mechanical Engineering from Technocrats Institue Of Technology, Bhopal (M.P)  and I have worked as a Internal Audit Officer in fusion Microfinance Pvt Ltd . I am a self-learner, curious and enthusiastic in learning new things. Curiosity is what makes a person think different. I think learning even a small thing as it seem can make a difference. Take a look at some projects I built on Github or check my resume.',
 
   resume:
-    'https://drive.google.com/file/d/1nVlyiBkmycX59oPNUwufNyRUUnVVBmri/view',
+    'https://drive.google.com/file/d/1GBUXE__uh-8ca3UH-BJPZne1HlK0rRst/view',
   social: {
     linkedin: 'https://www.linkedin.com/in/rohit-chourey/',
     github: 'https://github.com/rohitchourey0809',
@@ -23,7 +23,7 @@ const home = {
 }
 
 const aboutsummary = [
-  'Dynamic and results-driven Associate Software Engineer with a commendable two-year tenure at Indus Net Technologies in Kolkata, specializing in React and Next.js development. My primary focus has been on the impactful "SBI Customer Portal Project", where I have played a pivotal role as a Frontend Developer. Through collaborative efforts and technical proficiency, I have contributed significantly to the success of the project, ensuring a seamless and user-friendly experience for channel partners and agents.',
+  'Dynamic and results-driven Software Engineer with 3 years of experience, including a 2-year tenure at Indus Net Technologies, Kolkata, and 1 year at Ziptrrrip.com, Mumbai. Proficient in React and Next.js, I have excelled in developing user-centric web applications. At Indus Net, I played a key role in the SBI Customer Portal Project, enhancing frontend functionality to deliver a seamless experience for channel partners and agents. At Ziptrrrip.com, I contributed to the development of a travel booking platform, focusing on multi-traveler selection, web check-in reminders, and hotel UX design, driving improved customer satisfaction and engagement.',
 ]
 
 const WorkExperience = [
@@ -34,9 +34,15 @@ const WorkExperience = [
   'Work on mutilangual pages and used file based routing in Next.js',
   'Worked closely with UX/UI designers, backend developers, and QA teams in an Agile environment, ensuring seamless integration and timely delivery of features',
   'Implemented Next.js and React.js framework to enhance the performance and scalability of web application',
-  'Good exposure to HTML ,CSS ,JavaScript ,React ,Redux ,Next Js',
+  'Good exposure to HTML ,CSS ,JavaScript ,React ,Angular ,Rxjs ,Redux ,Next Js',
 ]
 
+const WorkExperienceZiptrrip = [
+  'Multi-Traveler Selection UX: Designed and implemented a user-friendly interface for selecting multiple travelers, enhancing usability and booking efficiency.',
+  'Web Check-In Reminder System: Developed a seamless web check-in process with automated reminder messages, improving user engagement and reducing missed check-ins.',
+  'Hotel Booking UX Development: Created an intuitive hotel booking experience, ensuring ease of use and increasing conversion rates.',
+  'Inventory Service Management: Built and maintained an efficient inventory management service, ensuring real-time availability and reducing booking errors',
+]
 const projects = [
   // projects can be added an removed
   // if there are no projects, Projects section won't show up
@@ -56,7 +62,14 @@ const projects = [
       'https://miro.medium.com/v2/resize:fit:828/format:webp/1*dHJX-7tgmhTLu5bHrwzOBg.png',
     description:
       'A Book Review System is a web application that allows users to browse, review, and rate books. It is built using React for the frontend, Tailwind CSS for styling, Express.js for the backend, and MongoDB as the database.',
-    stack: ['React', 'TailwindCss', 'Node', 'Express', 'MongoDB',"JsonWebToken"],
+    stack: [
+      'React',
+      'TailwindCss',
+      'Node',
+      'Express',
+      'MongoDB',
+      'JsonWebToken',
+    ],
     sourceCode: 'https://github.com/rohitchourey0809/git-hush-frontend',
     livePreview: 'https://git-hush-frontend.vercel.app/',
   },
@@ -186,4 +199,13 @@ const contact = {
   email: 'tech.rohitchourey@gmail.com',
 }
 
-export { header, aboutsummary, WorkExperience, home, projects, skills, contact }
+export {
+  header,
+  aboutsummary,
+  WorkExperience,
+  WorkExperienceZiptrrip,
+  home,
+  projects,
+  skills,
+  contact,
+}

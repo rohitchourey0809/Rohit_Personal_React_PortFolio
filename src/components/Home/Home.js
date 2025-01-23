@@ -9,9 +9,9 @@ function Home() {
   const { name, role, resume, social } = home
   const handleResumeClick = () => {
     // Open the download link in a new tab
-    const downloadLink =
-      'https://drive.google.com/uc?id=1nVlyiBkmycX59oPNUwufNyRUUnVVBmri'
-    // window.open(downloadLink, '_blank')
+    // this is the sharing link
+    const downloadLink = 'https://drive.google.com/uc?id=1GBUXE__uh-8ca3UH-BJPZne1HlK0rRst'
+    window.open(downloadLink, '_blank')
     window.location.href = downloadLink
   }
 
