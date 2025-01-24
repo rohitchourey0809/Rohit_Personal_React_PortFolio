@@ -4,7 +4,7 @@ A clean and simple portfolio template built using React, if want a template buil
 
 ## Preview
 
-[![Imgur](https://imgur.com/KJwhcsa)]()
+[![Imgur](https://imgur.com/a/7ulgHWk)]()
 
 [See Live](o)
 
